@@ -1,3 +1,42 @@
 header {
     background-color: grey;
+    text-align: center;
+    padding: 50px 0px 20px 0px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#main {
+    background-color: darkgray;
+    border-radius: 15px;
+}
+
+#img-div {
+    background-color: lightgray;
+    margin: 2%;
+    border-radius: 15px;
+    display: block;
+}
+
+#image {
+    width: 100%;
+    height: auto;
+    max-width: 625px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 15px;
+}
+
+#subtitle {
+    font-style: italic;
+}
+
+#tribute-info {
+    text-align: center;
+    padding: 2% 10% 2% 10%;
+}
+
+footer {
+    text-align: center;
 }
