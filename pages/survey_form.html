@@ -4,8 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="../css/survey_form.css">
+    
     <title>Survey Form</title>
 </head>
 
@@ -18,35 +20,42 @@
 <section>
     <form action="" id="survey-form">
         <label for="name" id="name-label">Name</label><br>
-        <input type="text" name="name" id="name" placeholder="Fill in your name" required><br><br>
+        <input type="text" name="name" id="name" placeholder="Fill in your name" required>
+        <br><br>
 
         <label for="email" id="email-label">Email</label><br>
-        <input type="email" name="email" id="email" placeholder="Fill in your email" required><br><br>
+        <input type="email" name="email" id="email" placeholder="Fill in your email" required>
+        <br><br>
 
         <label for="age" id="number-label">Age</label><br>
-        <input type="number" min="0" max="100" name="age" id="number" placeholder="Fill in your age"><br><br>
+        <input type="number" min="0" max="100" name="age" id="number" placeholder="Fill in your age">
+        <br><br>
 
-        <label for="dropdown">Favourite JS-framework</label>
+        <label for="dropdown">Favourite JS-framework</label><br>
         <select id="dropdown" name="dropdown">
+            <option value="none">---</option>
             <option value="React">React</option>
             <option value="Angular">Angular</option>
             <option value="Vue">Vue</option>
             <option value="LWC">LWC</option>
-          </select><br><br>
+        </select>
+        <br><br>
 
-          <label for="group1">Radio buttons</label>
-          <input id="group1" type="radio" name="group1" value="Option 1" /> Option 1
-          <input id="group1" type="radio" name="group1" value="Option 2" /> Option 2
-          <br><br>
+        <label for="group1">Radio buttons</label><br>
+        <input id="group1" type="radio" name="group1" value="Option 1" /> Option 1
+        <input id="group1" type="radio" name="group1" value="Option 2" /> Option 2
+        <br><br>
 
-          <label for="group2">Checkboxes</label>
-          <input id="group2" type="checkbox" name="group2" value="Option 1" /> Option 1
-          <input id="group2" type="checkbox" name="group2" value="Option 2" /> Option 2
-          <br><br>
+        <label for="group2">Checkboxes</label><br>
+        <input id="group2" type="checkbox" name="group2" value="Option 1" /> Option 1
+        <input id="group2" type="checkbox" name="group2" value="Option 2" /> Option 2
+        <br><br>
 
+        <label for="comments">Comments</label><br>
         <textarea name="comments" id="comments" cols="30" rows="10"></textarea><br>
         
         <input type="submit" name="submit" value="Submit" id="submit">
+        <br><br>
 
 
     </form>

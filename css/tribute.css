@@ -1,14 +1,27 @@
+/* MAIN */
+#main {
+    background-color: #aaaaaa;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+
+/* HEADER */
+
 header {
-    background-color: grey;
     text-align: center;
     padding: 50px 0px 20px 0px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
 
-#main {
-    background-color: darkgray;
-    border-radius: 15px;
+header h1,h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header h2 {
+    font-size: medium;
+    font-weight: lighter;
 }
 
 #img-div {
@@ -21,20 +34,27 @@ header {
 #image {
     width: 100%;
     height: auto;
+    padding: 20px 0 0 0;
+    filter: grayscale(100%);
     max-width: 625px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    border-radius: 15px;
 }
 
-#subtitle {
-    font-style: italic;
-}
+/* TRIBUTE INFO */
 
 #tribute-info {
+    text-align: justify;
+    padding: 2% 20% 2% 20%;
+}
+
+#tribute-info h3 {
+
+}
+
+#link {
     text-align: center;
-    padding: 2% 10% 2% 10%;
 }
 
 footer {

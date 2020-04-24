@@ -1,7 +1,17 @@
-#survey-form {
-    align-items: center;
+body {
+    margin: 0% 20% 0% 20%;
+    background-color: gray;
+    font-family: 'Segoe UI', Verdana, sans-serif;
 }
 
-footer {
-    text-align: center;
+header {
+    background-color: lightblue;
+    font-family: Verdana, sans-serif;
 }
+
+#survey-form {
+    background-color: blue;
+    padding: 20px;
+}
+
+
