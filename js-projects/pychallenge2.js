@@ -15,7 +15,10 @@ console.log(input);
 
 function caesarcipher(encoded){
 
+    var characters = encoded.split('');
+    console.log(characters);
 
+    
     var decoded = "test";
     return decoded;
 }
