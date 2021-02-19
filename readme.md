@@ -10,4 +10,3 @@ It also contains some FreeCodeCamp Portfolio Projects
   - [ ] Product Landing Page
   - [ ] Technical Documentation Page
   - [ ] Personal Portfolio Webpage
-
