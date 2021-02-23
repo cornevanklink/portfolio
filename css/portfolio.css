@@ -1,11 +1,10 @@
 body {
     margin:0px;
+    background-color: grey;
 }
 
-/* Navigation */
+/* ------ Navigation ------ */
 nav {
-    position:absolute;
-    background-color:blue;
     width:100%;
 }
 
@@ -20,17 +19,38 @@ li#nav-item {
 
 li#nav-item a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
+li#nav-item a:hover {
+    background-color: red;
 }
 
-section {
-    display:block;    
+/* ------ Sections ------ */
+
+#welcome-section {
+    padding: 50px;
+}
+
+#projects {
+    padding: 50px;
+}
+
+.project-tile {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+/* ------ Footer ------ */
+
+footer {
+    padding: 10px;
 }
