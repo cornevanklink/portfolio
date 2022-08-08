@@ -15,7 +15,8 @@ header {
     border-top-right-radius: 15px;
 }
 
-header h1,h2 {
+header h1,
+h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -49,9 +50,7 @@ header h2 {
     padding: 2% 20% 2% 20%;
 }
 
-#tribute-info h3 {
-
-}
+#tribute-info h3 {}
 
 #link {
     text-align: center;

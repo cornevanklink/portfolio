@@ -8,11 +8,9 @@
 }
 
 /* Debugging tool */
-/**/
 * {
     outline: 1px solid red;
 }
-*/
 
 
 #nav {
@@ -20,5 +18,5 @@
 }
 
 body {
-    font-family:'Trebuchet MS', Arial, sans-serif;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
 }
